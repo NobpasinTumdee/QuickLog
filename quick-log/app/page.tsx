@@ -39,6 +39,11 @@ export default function Home() {
                 placeholder="password"
                 required
               />
+              <input
+                type="file"
+                name="avatar_url"
+                placeholder="Picture"
+              />
               <button >
                 register!!!
               </button>
