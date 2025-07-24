@@ -17,33 +17,38 @@ export default function Home() {
           {/* {!hasEnvVars ? <EnvVarWarning /> : <AuthButton />} */}
           <ThemeSwitcher />
         </nav>
+
         <div className="home-main">
-          <h1>Hello world</h1>
+          <h1>Register</h1>
           <div >
-            <form action={register}>
+            <form action={register} className="form-register">
               <input
                 type="text"
                 name="name"
                 placeholder="name"
                 required
               />
+              <br />
               <input
                 type="email"
                 name="email"
                 placeholder="email"
                 required
               />
+              <br />
               <input
                 type="password"
                 name="password"
                 placeholder="password"
                 required
               />
+              <br />
               <input
                 type="file"
                 name="avatar_url"
                 placeholder="Picture"
               />
+              <br />
               <button >
                 register!!!
               </button>

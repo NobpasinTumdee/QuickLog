@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .Home {
   width: 100vw;
 }
@@ -12,6 +16,36 @@
 }
 
 .home-main {
-  width: 100vw;
+  width: 90%;
+  margin: 0 5%;
+  height: auto;
   text-align: center;
+}
+
+.form-register {
+  width: 100%;
+  
+}
+
+.form-register input {
+  width: 50%;
+  margin: 10px 25%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-register button {
+  width: 50%;
+  margin: 10px 25%;
+  padding: 10px 0;
+  font-size: 16px;
+  border: 1px solid #3cad00;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #2c7b01;
+  cursor: pointer;
+  color: #fff;
 }
